@@ -11,3 +11,10 @@
   font-size: 50px;
   text-align: center;
 }
+
+.container {
+  display: grid;
+  /*grid-column: 0;
+  grid-row: 0;*/
+  border-color: #fff;
+}
