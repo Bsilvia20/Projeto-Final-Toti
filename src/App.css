@@ -13,8 +13,9 @@
 }
 
 .container {
-  display: grid;
   /*grid-column: 0;
   grid-row: 0;*/
   border-color: #fff;
+    display: flex;
+    justify-content: space-around;
 }

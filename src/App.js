@@ -1,8 +1,8 @@
-import React from "react";
-import './App.css';
-//import Filtro from "./Container/Filtro";
+import React, { useEffect, useState } from 'react';
+import Api from "./Api";
+import "./App.css";
 
-function App() {
+function App(){
   return (
     <div>
       <div className="App">
@@ -16,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
