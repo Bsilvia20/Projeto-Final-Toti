@@ -1,7 +1,7 @@
-import React from "react";
-import bootstrap from "bootstrap";
+import React, { useEffect, useState } from "react";
 
-function Cards() {
+const Cards = ({modelos}) => {
+  console.log(modelos);
   return(
     <div>
       Cards
