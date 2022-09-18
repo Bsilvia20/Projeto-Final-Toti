@@ -1,19 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Navbar from './Container/Navbar';
+import Filtro from './Container/Filtro';
+import Cards from './Container/Cards';
 import Api from "./Api";
+import Formulario from './Container/Formulario';
 import "./App.css";
 
 function App(){
   return (
     <div>
-      <div className="App">
-        <h3>CRUD Carro</h3>
-        <h1 className="title">Concessionario de Sonhos</h1>
-      <div className="container">
-        <div className="card">
-        </div>
-      </div>
-      </div>
+      <Navbar />
+      <Filtro />
+      <Cards />
+      <Formulario />
     </div>
   );
 }
+
 export default App;

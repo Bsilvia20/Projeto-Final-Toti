@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Filtro() {
+function Formulario() {
     return(
         <div>
-            Filtro
+            <h2>Contacto</h2>
         </div>
     )
 }
 
-export default Filtro;
+export default Formulario;
