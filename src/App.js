@@ -12,6 +12,7 @@ function App(){
       <Navbar />
       <Filtro />
       <Cards />
+      <Api />
       <Formulario />
     </div>
   );
