@@ -13,21 +13,7 @@ const Navbar = () => {
         <img src=""/>
         </div>
 
-        <div id="filter-bar">
-            <form>
-                <label for="search-bar">O que está procurando?</label>
-                <input type="text" placeholder="pesquisa" id="search-bar"/>
-
-                <label for="preço">Preço:</label>
-                <input type="text" placeholder="R$1000" id="preço"/>
-
-                <label for="marca">Ano:</label>
-                <input type="text" placeholder="2022" id="ano"/>
-                
-                <label for="marca">Marca:</label>
-                <input type="text" placeholder="marca do carro" id="marca"/>
-            </form>
-        </div>
+      
       </div>
 
         </div>
