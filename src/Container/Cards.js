@@ -7,12 +7,11 @@ const Cards = ({ modelos }) => {
 
     if (modelos) {
       card = modelos.map((x) => {
-        let { nome, codigo, id } = x;
+        let { nome, codigo } = x;
         return (
           <div key={nome} className="columnas">
-            <div className="">
-              {nome}
-            </div>
+              <p className="carro">{nome}</p>
+              <p>{codigo}</p>
           </div>
         );
       });

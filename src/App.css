@@ -1,21 +1,6 @@
 * {
-  background-color: #3E255E;
-  margin: 10px;
-}
-
-.App {
+  font-family: 'Monserrat', Open Sans;
+  background-color: rgb(0, 0, 0);
   color: #fff;
 }
 
-.title {
-  font-size: 50px;
-  text-align: center;
-}
-
-.container {
-  /*grid-column: 0;
-  grid-row: 0;*/
-  border-color: #fff;
-    display: flex;
-    justify-content: space-around;
-}
