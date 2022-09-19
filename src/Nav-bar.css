@@ -1,0 +1,55 @@
+#filter-bar{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+form span{
+    display: block;
+    color: black;
+    background-color: white;
+    padding: 0%;
+}
+
+#form-control-search{
+    margin-right: 200px;
+    background-color: white;
+    color: black;
+    
+}
+
+#form-control-search input{
+    display: block;
+    background-color: white;
+
+   
+}
+
+#form-control-search label{
+    padding: 0;
+    display: block;
+    background-color: white;
+    margin: 0;
+    color: black;
+
+   
+}
+
+
+#form-control{
+    background-color: white;
+    color: black;
+}
+
+#form-control input{
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+#form-control label{
+    background-color: white;
+   color: black;
+}
