@@ -1,6 +1,8 @@
-* {
-    color: #fff;
-    font-family: 'Montserrat', 'Open Sans', 'Raleway';
-    font-size: 12px;
+.columnas {
+    display: grid;
+    grid-column: 50% 50%;
 }
 
+.carro {
+    background-color: blue;
+}

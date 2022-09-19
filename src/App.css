@@ -1,21 +1,14 @@
 * {
+<<<<<<< HEAD
   background-color: black;
   margin: 10px;
 }
 
 .App {
+=======
+  font-family: 'Monserrat', Open Sans;
+  background-color: rgb(0, 0, 0);
+>>>>>>> 478a0b38bfa72cecb14b6fa5f74364d11cf0421c
   color: #fff;
 }
 
-.title {
-  font-size: 50px;
-  text-align: center;
-}
-
-.container {
-  /*grid-column: 0;
-  grid-row: 0;*/
-  border-color: #fff;
-    display: flex;
-    justify-content: space-around;
-}
