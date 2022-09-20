@@ -1,28 +1,39 @@
 #filter-bar{
     background-color: white;
     display: flex;
-    align-content: center;
-    padding: 50px;
+    padding: 40px;
+    margin: 10%;
     border-radius: 5px;
+    align-content: center;
+    box-shadow: 3px 5px  30px gray;
+   position: absolute;
+   margin-top: -50px;
+}
+
+#form{
+    align-content: center;
+  
+   
 }
 
 form span{
     display: block;
-    color: black;
-    background-color: white;
+    color:grey;
     padding: 0%;
-}
+} 
 
 #form-control-search{
+    color: grey;
     margin-right: 200px;
-    background-color: white;
-    color: black;
+
     
 }
 
 #form-control-search input{
     display: block;
-    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+    color: black;
 
    
 }
@@ -30,26 +41,27 @@ form span{
 #form-control-search label{
     padding: 0;
     display: block;
-    background-color: white;
-    margin: 0;
-    color: black;
+    color:grey;
 
    
 }
 
 
 #form-control{
-    background-color: white;
     color: black;
+    padding: 0 10px 0 10px;
+    
 }
 
 #form-control input{
-    margin-top: 20px;
-    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid gray;
+    color: black;
 }
 
 
 #form-control label{
-    background-color: white;
-   color: black;
+   color: grey;
+   display: block;
 }
