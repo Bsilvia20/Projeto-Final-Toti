@@ -15,14 +15,19 @@
 
 .Navbar ul{
     display: flex;
-  
 }
 
 .Navbar ul li{
    padding: 10px;
    list-style: none;
-  
 }
+
+.Navbar ul li:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 10px;
+    transition: ease-in 0.5s;
+ }
 
 #logo{
     width: 100px;
@@ -31,16 +36,13 @@
 
 #header-img{
     width: 600px;
-    height: 600px;
-
-    
+    height: 600px;    
 }
 
 #header-content{
     display: flex;
   justify-content: space-evenly;
   color: #0BB5FF;
- 
 }
 
 #header-content h1{
