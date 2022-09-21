@@ -7,6 +7,10 @@
     height: 500px;
 }
 
+#contatos{
+    margin-bottom: 100px;
+}
+
 #footer h5,h2{
     color:  #0BB5FF;
 }
@@ -32,3 +36,6 @@
    margin-right: 10px;
 }
 
+#icons{
+    width: 100px;
+}
