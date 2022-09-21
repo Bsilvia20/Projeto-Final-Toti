@@ -37,6 +37,9 @@ function Formulario() {
                         <span><label>Mensagem</label></span>
                         <textarea cols='30' />
                     </div>
+                    <div>
+                        <button className='button'>Enviar Mensagem</button>
+                    </div>
                 </form>
             </div>
         </div>
