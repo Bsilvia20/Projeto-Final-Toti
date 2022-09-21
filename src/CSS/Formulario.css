@@ -38,6 +38,7 @@
     height: 20px;
     margin-bottom: 5px;
     padding: 10px;
+    color: rgb(0, 0, 0);
 }
 #contatos-form textarea{
     display: block;
@@ -45,6 +46,7 @@
     height: 60px;
     margin-bottom: 5px;
     padding: 10px;
+    color: rgb(0, 0, 0);
 }
 
 #contatos-form label {

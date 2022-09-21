@@ -29,13 +29,13 @@ function Formulario() {
                     </div>
                     <div>
                         <label>Email</label>
-                        <input type='email' />
+                        <input type='email' required />
                     </div>
                     <div>
                         <label>Assunto</label>
                         <input type='text' />
                         <span><label>Mensagem</label></span>
-                        <textarea cols='30' />
+                        <textarea cols='30' required />
                     </div>
                     <div>
                         <button className='button'>Enviar Mensagem</button>
