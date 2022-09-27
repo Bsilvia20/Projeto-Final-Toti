@@ -1,0 +1,8 @@
+.columnas {
+    display: grid;
+    grid-column: 50% 50%;
+}
+
+.carro {
+    background-color: blue;
+}

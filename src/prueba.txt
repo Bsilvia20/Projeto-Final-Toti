@@ -1,0 +1,308 @@
+import React, {useEffect, useState} from "react";
+import Cards from "./Container/Cards";
+
+function Api() {
+
+    const [carros, setCarros] = useState([]);
+
+    const url = "https://parallelum.com.br/fipe/api/v1/carros/marcas";
+
+    const listCarro = (url) => {
+      fetch (url)
+        .then(response => response.json())
+        .then(data => setCarros(data.results))
+        .catch(error => console.log(error));  
+    };
+
+    useEffect(() => {
+        listCarro(url);
+    }, []);
+    
+    return (
+        <div className="container">
+            <Cards listCarro={carros} />
+        </div>
+    );
+}
+
+export default Api;
+
+
+
+
+import React from "react";
+
+fetch ("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error));
+
+
+
+    export default class Api extends React.Component {
+        constructor() {
+            super()
+            this.state = {
+                carros: ''
+            }
+        }
+    
+        componentDidMount() {
+          fetch ("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+            .then(response => response.json())
+            .then(carros => console.log(carros))
+        }
+        render() {
+            return(
+                <div>teste</div>
+            )
+        }
+    }
+
+
+    import React from "react";
+
+    export default class Api extends React.Component {
+        constructor() {
+            super();
+            
+            this.state = { carros:{} };
+        }
+    
+        componentDidMount() {
+          fetch ("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+            .then(response => response.json())
+            .then(carros => this.setState({ carros: carros}))
+        }
+    
+        render() {
+            const carro = this.state.carros;
+    
+            return <h1>teste, {carro.name}!</h1>;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    import React from 'react';
+import Api from "./Api";
+
+import "./App.css";
+
+function App(){
+  return (
+    <div>
+      <div className="App">
+        <h3>CRUD Carro</h3>
+        <h1 className="title">Concessionario de Sonhos</h1>
+      <div className="container">
+        <div className="card">
+        </div>
+        <div className="row">
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+}
+export default App;
+
+
+
+
+
+import React from "react";
+
+export default class Api extends React.Component {
+  constructor() {
+      super()
+      this.state = {
+          carros: ''
+      }
+  }
+
+  componentDidMount() {
+    fetch ("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+      .then(response => response.json())
+      .then(carros => console.log(carros))
+  }
+  render() {
+      return(
+          <div>teste</div>
+      )
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+import React from "react";
+
+export default class ValidarFormulario extends React.Component {
+
+    constructor() {
+        this.formulario = document.querySelector('.form-group');
+        this.eventos();
+    }
+
+    eventos() {
+        this.formulario.addEventListener('submit', e => {
+            this.testeSubmit(e);
+        });
+    }
+
+    testeSubmit(e) {
+        e.preventDefault();
+        const camposValidos = this.camposValidos();
+        const emailValidos = this.emailValido();
+
+        if(camposValidos && emailValidos) {
+            alert('Formulario enviado');
+            this.formulario.submit();
+        }
+    }
+
+    emailValido() {
+        let valid = true;
+
+        const email = this.formulario.querySelector('.email');
+
+        if(email.value.length < 6) {
+            valid = false;
+            this.erro(email, 'Email curto.');
+        }
+
+        return valid;
+    }
+
+    camposValidos(){
+        let valid = true;
+
+        for(let errorText of this.formulario.querySelectorAll('.error-text')) {
+            errorText.remove();
+        }
+
+        for(let campo of this.formulario.querySelectorAll('.validar')) {
+            const label = campo.previousElementSibling.innerText;
+
+            if(!campo.value) {
+                this.erro(campo, `O campo "${label}" não pode ficar vazio.`)
+                valid = false;
+            }
+        }
+        return valid;
+    }
+
+    erro(campo, msg) {
+        const div = document.createElement('div');
+        div.innerHTML = msg;
+        div.classList.add('error-text');
+        campo.insertAdjacentElement('afterend', div);
+    }
+    
+    const valida = new ValidarFormulario();
+
+    render() {
+        return (
+        <div class="correio">
+            <form class="form-group">
+                <label class="subtituloFormulario">Nome</label>
+                <input class="input validar" type="text" placeholder="Nome"></input>
+                <label class="subtituloFormulario">Email</label>
+                <input class="email validar" type="email" placeholder="Email"></input>
+                <label class="subtituloFormulario">Mensagem</label>
+                <textarea class="validar" name="message" placeholder="Escreva sua mensagem aqui..."></textarea>
+                <button class="btn-submit" type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+        )
+    }
+}
+
+
+
+function Api() {
+
+    const [marcas, setMarcas] = useState([]);
+
+    const url = 'https://parallelum.com.br/fipe/api/v1/carros/marcas';
+
+    const carros = (url) => {
+        fetch ("url")
+        .then(response => response.json())
+        .then(data => setMarcas(data))
+        .catch(error => console.log(error))
+    };
+
+    useEffect(() => {
+        carros(url);
+    }, [])
+
+    return (
+        <div>
+            <Navbar Crud="Concessionario de Sonhos" />
+        </div>
+    );
+}
+
+
+
+
+
+
+export default class Api extends React.Component{
+    constructor() {
+        super();
+
+        this.state = { nome: {} };
+    }
+
+    componentDidMount() {
+        fetch ("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+        .then(response => response.json())
+        .then(data => this.state( {data: data }))
+        //.catch(error => console.log(error))   
+    }
+
+    render() {
+        const nome = this.state.nome;
+
+        return<h1>Hola, {nome.nome}</h1>;
+    }
+}
+
+function Api() {
+    const [carros, setCarros] = useState([]);
+
+    useEffect(() => {
+        axios.get('')
+        .then((response) => {
+            setCarros(response.data);
+        });
+    }, []);
+
+    return (
+        <div>
+            {carros.map((carros) => (
+                <Cards carros={carros} />
+            ))}
+        </div>
+    );
+};
+
+export default Api;

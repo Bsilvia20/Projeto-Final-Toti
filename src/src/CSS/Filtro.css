@@ -1,0 +1,56 @@
+#filter-bar{
+    background-color: white;
+    display: flex;
+    padding: 40px;
+    margin: 10%;
+    border-radius: 5px;
+    align-content: center;
+    box-shadow: 3px 5px  30px gray;
+   position: absolute;
+   margin-top: -50px;
+}
+
+#form{
+    align-content: center; 
+}
+
+form span{
+    display: block;
+    color:grey;
+    padding: 0%;
+} 
+
+#form-control-search{
+    color: grey;
+    margin-right: 200px;  
+}
+
+#form-control-search input{
+    display: block;
+    border-radius: 5px;
+    border: 2px solid gray;
+    color: black;
+}
+
+#form-control-search label{
+    padding: 0;
+    display: block;
+    color:grey; 
+}
+
+#form-control{
+    color: black;
+    padding: 0 10px 0 10px;  
+}
+
+#form-control input{
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid gray;
+    color: black;
+}
+
+#form-control label{
+   color: grey;
+   display: block;
+}

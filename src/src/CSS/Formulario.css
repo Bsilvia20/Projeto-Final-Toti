@@ -1,0 +1,76 @@
+#footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+}
+
+#footer h5,h2{
+    color:  #0BB5FF;
+    font-size: 30px;
+}
+
+#number{
+    display: flex;
+    align-items: center;
+}
+
+#contatos-form{
+    padding: 5px;
+}
+
+.contato {
+    padding-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 18px;
+    text-align: center;
+}
+
+#contatos-form input{
+    display: block;
+    width: 120%;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+#contatos-form textarea{
+    display: block;
+    width: 120%;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#contatos-form label {
+    font-size: 18px;
+}
+
+#whatsapp{
+    width: 50px;
+    height: 50px;
+   margin-right: 10px;
+}
+
+#icons{
+    width: 100px;
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    background-color: #0BB5FF;
+    margin-left: 60px;
+    margin-top: 10px;
+}
