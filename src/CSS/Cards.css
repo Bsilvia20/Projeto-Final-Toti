@@ -1,18 +1,16 @@
 .row {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 
 .columnas {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    margin: 10px;
-    margin-left: 30px;
 }
 
 .card {
     align-items: center;
     justify-content: center;
-    background-color: rgb(156, 156, 156);
+    background-color: #fff;
     width: 300px;
     height: 380px;
     border-radius: 25px;
@@ -49,17 +47,19 @@
 }
 
 .btn-uptade {
-    background-color: rgb(41, 126, 230);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 3px 20px;
-    border-color: rgb(41, 126, 230);
+    border: none;
     border-radius: 10px;
     margin-right: 5px;
 }
 
 .btn-delete {
-    background-color: rgb(158, 30, 255);
+    color: rgb(255, 255, 255);;
+    background-color: rgb(0, 0, 0);
     padding: 3px 20px;
-    border-color: rgb(158, 30, 255);;
     border-radius: 10px;
+    border: none;
     margin-left: 5px;
 }
