@@ -1,22 +1,64 @@
+.row {
+    display: inline-flexbox;
+    background-color: #000;
+}
+
 .columnas {
-    display: inline-flex;
-    background-color: blue;
-    color: rgb(255, 255, 255);
-    margin: 5px;
-    overflow: hidden;
+    background-color: #000;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.card {
     align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    height: 380px;
+    border-radius: 25px;
+    line-height: 10px;
+    text-align: center;
 }
 
 .card img {
+    margin-top: 15px;
     width: 200px;
 }
 
 .titulo {
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitulo {
     font-size: 16px;
     color: #000;
+}
+
+.text {
+    color: #000;
+}
+
+.text-preco {
+    font-size: 20px;
+    color: #000;
+}
+
+.btn-uptade {
+    background-color: rgb(41, 126, 230);
+    padding: 3px 20px;
+    border-color: rgb(41, 126, 230);;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background-color: rgb(158, 30, 255);
+    padding: 3px 20px;
+    border-color: rgb(158, 30, 255);;
+    border-radius: 10px;
+    margin-left: 5px;
 }
