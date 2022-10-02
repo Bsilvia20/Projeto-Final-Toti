@@ -7,6 +7,7 @@ import Formulario from './Container/Formulario';
 import "./App.css";
 
 function App(){
+
   return (
     <div>
       <Navbar />
@@ -19,3 +20,6 @@ function App(){
 }
 
 export default App;
+
+//url Api https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos   
+//http://localhost:3000/carro
