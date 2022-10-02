@@ -1,8 +1,22 @@
 .columnas {
-    display: grid;
-    grid-column: 50% 50%;
+    display: inline-flex;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    overflow: hidden;
+    align-items: center;
 }
 
-.carro {
-    background-color: blue;
+.card img {
+    width: 200px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #000;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #000;
 }

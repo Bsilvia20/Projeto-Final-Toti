@@ -1,9 +1,6 @@
 import React from 'react';
-import '../CSS/Formulario.css'
-import whatsapp from '../Imgs/whatsapp.jpg'
-import social from '../Imgs/social-icons.jpg'
 import '../CSS/Formulario.css';
-
+import whatsapp from '../Imgs/whatsapp.jpg';
 
 
 function Formulario() {
@@ -22,7 +19,6 @@ function Formulario() {
                 </div><br />
                 <div>
                     <h5>Segue a gente</h5>
-                    <span ><img id='icons' src={social}/></span>
                 </div>
             </div>
             <div id='contatos-form'>

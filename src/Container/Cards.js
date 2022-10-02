@@ -1,24 +1,23 @@
 import React from "react";
 import "../CSS/Cards.css"
 
-const Cards = ({ modelos }) => {
-  let card;
-  console.log(modelos);
+const Cards = ({ datos = [] }) => {
+  return(
+    <div className="row">
+      {datos.map((datos,id) => (
+        <div key={id} className="columnas">
+          <div className="card">
+            <img src={datos.imagem} alt="" />
+            <div className="card-body">
+              <h3 className="titulo">{datos.marca}</h3>
+              <h4 className="subtitulo">{datos.modelo}</h4>
 
-    if (modelos) {
-      card = modelos.map((x) => {
-        let { nome, codigo } = x;
-        return (
-          <div key={nome} className="columnas">
-              <p className="carro">{nome}</p>
-              <p>{codigo}</p>
+            </div>
           </div>
-        );
-      });
-    } else {
-    card = "No se encuentra";
-    };
-
-  return <>{card}</>;
+        </div>
+      ))}
+    </div>
+  );
 };
+
 export default Cards;
