@@ -1,8 +1,62 @@
-.columnas {
-    display: grid;
-    grid-column: 50% 50%;
+.row {
+    display: block;
 }
 
-.carro {
+.columnas {
+    display: inline-flex;
     background-color: blue;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 300px;
+    height: 380px;
+    border-radius: 25px;
+    line-height: 10px;
+}
+
+.card img {
+    margin-top: 15px;
+    width: 200px;
+}
+
+.titulo {
+    font-size: 25px;
+    color: #000;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #000;
+}
+
+.text {
+    color: #000;
+}
+
+.text-preco {
+    font-size: 20px;
+    color: #000;
+}
+
+.btn {
+    
+}
+
+.btn-uptade {
+    background-color: blue;
+    padding: 3px 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background-color: red;
+    padding: 3px 20px;
+    border-radius: 10px;
+    margin-left: 5px;
 }

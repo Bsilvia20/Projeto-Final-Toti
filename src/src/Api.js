@@ -4,25 +4,23 @@ import Cards from "./Container/Cards";
 function Api() {
 
     const [datos, obtenerDatos] = useState([]);
-    const {anos, modelos} = datos
-
-    const url = 'https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos';
+    
+    console.log(datos);
+    const url = 'http://localhost:3000/carro';
 
     useEffect(() => {
-        (async function(){
-            const data = await fetch(url).then(response => response.json());
+        (async function() {
+            const data = await fetch (url)
+            .then(response => response.json());
             obtenerDatos(data);
         })();
     }, [url]);
-
-    return (
+    
+    return(
         <div>
-            <Cards modelos={modelos} />
+            <Cards datos={datos} />
         </div>
     )
 }
 
-
 export default Api;
-
-//http://localhost:3000/carro
