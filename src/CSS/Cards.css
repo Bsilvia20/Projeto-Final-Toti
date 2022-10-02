@@ -1,11 +1,10 @@
 .row {
-    display: inline-flexbox;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .columnas {
-    background-color: #000;
-    color: rgb(0, 0, 0);
+    background-color: #fff;
+    color: rgb(255, 255, 255);
     margin: 10px;
     margin-left: 30px;
 }
@@ -13,7 +12,7 @@
 .card {
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: rgb(156, 156, 156);
     width: 300px;
     height: 380px;
     border-radius: 25px;
@@ -31,6 +30,7 @@
     color: #000;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
 
 .subtitulo {
@@ -45,12 +45,13 @@
 .text-preco {
     font-size: 20px;
     color: #000;
+    font-weight: 600;
 }
 
 .btn-uptade {
     background-color: rgb(41, 126, 230);
     padding: 3px 20px;
-    border-color: rgb(41, 126, 230);;
+    border-color: rgb(41, 126, 230);
     border-radius: 10px;
     margin-right: 5px;
 }

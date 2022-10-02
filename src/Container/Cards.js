@@ -5,7 +5,7 @@ const Cards = ({ datos = [] }) => {
   return(
     <div className="row">
       {datos.map((datos,id) => (
-        <div key={id} className="columnas">
+        <div key={id} className="col mb-4">
           <div className="card">
             <img src={datos.imagem} alt="" />
             <div className="card-body">
