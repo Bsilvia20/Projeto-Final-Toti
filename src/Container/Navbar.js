@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Link, Routes, Route } from 'react-router-dom'
 import '../CSS/Navbar.css';
 import logo from'../Imgs/logo.png';
 import Header from'../Imgs/Header-img.jpg';
@@ -11,8 +12,7 @@ const Navbar = () => {
         <div>
           <ul>
             <li>Home</li>
-            <li>Carros Novos</li>
-            <li >Cadastrar Carros</li>
+            <li>Cadastrar Carros</li>
             <li>Carrinho</li>
           </ul>
         </div>

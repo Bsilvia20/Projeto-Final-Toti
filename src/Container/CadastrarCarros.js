@@ -1,5 +1,11 @@
 import React from "react";
 
-export function CadastrarCarros() {
+function CadastrarCarros(){
+    return(
+        <div>
+            Crear carro
+        </div>
+    )
+}
 
-};
+  export default CadastrarCarros;
