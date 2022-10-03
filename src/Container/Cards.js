@@ -1,5 +1,6 @@
 import React from "react";
-import "../CSS/Cards.css"
+import Buttons from "./Buttons"
+import "../CSS/Cards.css";
 
 const Cards = ({ datos = [] }) => {
   return(
@@ -14,8 +15,8 @@ const Cards = ({ datos = [] }) => {
               <p className="text">Ano: {datos.ano}</p>
               <p className="text-preco">Preço: {datos.preco}</p>
               <div className="btn">
-                <button className="btn-uptade">Atualizar</button>
-                <button className="btn-delete" >Remover</button>
+                <button onClick={()=>this.Uptade(id)} className="btn-uptade">Atualizar</button>
+                <button onClick={()=>this.Delete(id)} className="btn-delete" >Remover</button>
               </div>
             </div>
           </div>

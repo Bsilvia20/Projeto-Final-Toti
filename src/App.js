@@ -3,6 +3,8 @@ import Navbar from './Container/Navbar';
 import Filtro from './Container/Filtro';
 import Cards from './Container/Cards';
 import Api from "./Api";
+import CadastrarCarros from './Container/CadastrarCarros';
+import Buttons from './Container/Buttons';
 import Formulario from './Container/Formulario';
 import "./App.css";
 

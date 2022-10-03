@@ -10,8 +10,9 @@ const Navbar = () => {
         <div><img id="logo" src={logo}/></div>
         <div>
           <ul>
-            <li>Inicio</li>
+            <li>Home</li>
             <li>Carros Novos</li>
+            <li >Cadastrar Carros</li>
             <li>Carrinho</li>
           </ul>
         </div>

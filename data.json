@@ -104,7 +104,12 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "create": {
+        "id": 12,
+        "imagem": "",
+        "marca": "",
+        "modelo": "",
+        "preco": 0,
+        "ano": 0
   }
 }
