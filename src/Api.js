@@ -8,19 +8,22 @@ function Api() {
     console.log(datos);
     const url = 'http://localhost:3000/carro';
 
-    useEffect(() => {
-        (async function() {
-            const data = await fetch (url)
+    const peticionGet = async() => {
+        const data = await fetch (url)
             .then(response => response.json());
             obtenerDatos(data);
-        })();
-    }, [url]);
+            
+    }
+
+    useEffect(() => {
+       peticionGet();
+    }, []);
     
     return(
         <div>
             <Cards datos={datos} />
         </div>
-    )
-}
+    );
+};
 
 export default Api;

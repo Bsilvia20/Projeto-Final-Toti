@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../CSS/Filtro.css';
 
 
 function Filtro() {
+
+    const [ search, setSearch ] = useState("");
+
     return(    
             <form id='form'>
                  <div id="filter-bar">
@@ -20,6 +23,10 @@ function Filtro() {
                     </div>
                     <div id="form-control">
                         <label for="marca">Marca:</label>
+                        <input type="text" placeholder="marca do carro" id="marca"/>
+                    </div>
+                    <div id="form-control">
+                        <label for="marca">Modelo:</label>
                         <input type="text" placeholder="marca do carro" id="marca"/>
                     </div>
                 </div>
