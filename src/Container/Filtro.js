@@ -11,7 +11,8 @@ function Filtro() {
                  <div id="filter-bar">
                     <div id="form-control-search">
                         <label for="search-bar" id='search-lable'>O que está procurando?</label>
-                        <input type="text" placeholder="pesquisa" id="search-bar"/>
+                        <input type="text" placeholder="pesquisa" value={search} id="search-bar"/>
+                        <button className='btn-search' ></button>
                     </div>
                     <div id='form-control'>
                         <label for="preço">Preço:</label>
