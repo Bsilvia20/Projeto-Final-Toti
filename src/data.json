@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "imagem": "https://img.olx.com.br/images/94/948202750482242.jpg",
+            "imagem": "https://carsanatomy.pk/images/volkswagen-amarok-2016.jpg",
             "marca": "Volkswagen",
             "modelo": "AMAROK CS2.0 1AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel",
             "preco": 155.572,
@@ -94,8 +94,7 @@
             "marca": "",
             "modelo": "",
             "preco": 0,
-            "ano": 0
-        },
+            "ano": 0        },
         {
             "id": 13,
             "imagem": "",
