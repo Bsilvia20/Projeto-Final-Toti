@@ -1,14 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../CSS/Filtro.css';
+import Cards from './Cards';
 
 
-function Filtro() {
+const Filtro = ({ datos = [] }) => {
+
+    const [ search, setSearch ] = useState("");
+
+    function pesquisar(e) {
+        setSearch(e.target.value);
+        console.log("search: "+ e.target.value);
+    }
+
     return(    
             <form id='form'>
                  <div id="filter-bar">
                     <div id="form-control-search">
                         <label for="search-bar" id='search-lable'>O que está procurando?</label>
-                        <input type="text" placeholder="pesquisa" id="search-bar"/>
+                        <input type="text" placeholder="pesquisa" onChange={search} id="search-bar"/>
+                        <button  className='btn-search' >Pesquisar</button>
                     </div>
                     <div id='form-control'>
                         <label for="preço">Preço:</label>
@@ -22,6 +32,11 @@ function Filtro() {
                         <label for="marca">Marca:</label>
                         <input type="text" placeholder="marca do carro" id="marca"/>
                     </div>
+                    <div id="form-control">
+                        <label for="marca">Modelo:</label>
+                        <input type="text" placeholder="marca do carro" id="marca"/>
+                    </div>
+                    <Cards datos= {datos} />
                 </div>
             </form>
     )
