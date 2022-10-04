@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Cards from "./Container/Cards";
+import Filtro from "./Container/Filtro";
 
 function Api() {
 
