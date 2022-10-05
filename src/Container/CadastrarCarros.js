@@ -1,11 +1,13 @@
 import React from "react";
+import { Modal, ModalBody, ModalHeader, ModalFooter } from "react-modal";
+import "../CSS/CadastrarCarros.css";
 
-function CadastrarCarros(){
+function CadastrarCarros() {
     return(
         <div>
-            Crear carro
+            cadastro
         </div>
     )
 }
 
-  export default CadastrarCarros;
+export default CadastrarCarros;
