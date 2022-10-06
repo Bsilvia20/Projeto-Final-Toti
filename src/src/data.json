@@ -1,0 +1,244 @@
+{
+    "carro": [
+        {
+            "id": 1,
+            "imagem": "https://images.noticiasautomotivas.com.br/img/f/amarok-2012-2.jpeg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die",
+            "preco": 93.209,
+            "ano": 2013
+        },
+        {
+            "id": 2,
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_987709-MLA46820140318_072021-O.jpg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x4 Die",
+            "preco": 122.621,
+            "ano": 2018
+        },
+        {
+            "id": 3,
+            "imagem": "https://motos-motor.com.br/c/wp-content/uploads/118/precos-tabela-vw-volkswagen-amarok-comfor-30-v6-tdi-4x4-dies-aut.jpg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK Comfor. 3.0 V6 TDI 4x4 Dies. Aut",
+            "preco": 279.396,
+            "ano": 2022
+        },
+        {
+            "id": 4,
+            "imagem": "https://auto-floripa-prod.nyc3.digitaloceanspaces.com/car/41331/1-1632526779.jpg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut",
+            "preco": 258.001,
+            "ano": 2022
+        },
+        {
+            "id": 5,
+            "imagem": "https://img.olx.com.br/images/26/261235314483313.jpg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK CS2.0 16V/S2.0 16V TDI 4x2 Diesel",
+            "preco": 92.292,
+            "ano": 2014
+        },
+        {
+            "id": 6,
+            "imagem": "https://img.olx.com.br/images/94/948202750482242.jpg",
+            "marca": "Volkswagen",
+            "modelo": "AMAROK CS2.0 1AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel",
+            "preco": 155.572,
+            "ano": 2020
+        },
+        {
+            "id": 7,
+            "imagem": "https://motos-motor.com.br/c/wp-content/uploads/0/precos-tabela-acura-integra-gs-18-1992.jpg",
+            "marca": "Acura",
+            "modelo": "Integra GS 1.8",
+            "preco": 12.227,
+            "ano": 1992
+        },
+        {
+            "id": 8,
+            "imagem": "https://extra.globo.com/incoming/13252334-f86-089/w976h550-PROP/agrale_marrua_am_200_14.jpg",
+            "marca": "Agrale",
+            "modelo": "MARRUÁ 2.8 12V 132cv TDI Diesel",
+            "preco": 50.741,
+            "ano": 2007
+        },
+        {
+            "id": 9,
+            "imagem": "https://motos-motor.com.br/c/wp-content/uploads/0/precos-tabela-alfa-romeo-145-elegant-17-18-16v.jpg",
+            "marca": "Alfa Romeo",
+            "modelo": "145 Elegant 1.7/1.8 16V",
+            "preco": 21.547,
+            "ano": 1999
+        },
+        {
+            "id": 10,
+            "imagem": "https://precota.com.br/carros/wp-content/uploads/0/precos-tabela-am-gen-hummer-hard-top-65-4x4-diesel-tb.jpg",
+            "marca": "AM General",
+            "modelo": "Hummer Hard-Top 6.5 4x4 Diesel TB",
+            "preco": 469.667,
+            "ano": 2000
+        },
+        {
+            "id": 11,
+            "imagem": "https://motos-motor.com.br/c/wp-content/uploads/0/precos-tabela-am-gen-hummer-wagon-65-4x4-diesel-tb.jpg",
+            "marca": "AM General",
+            "modelo": "Hummer Wagon 6.5 4x4 Diesel TB",
+            "preco": 383.169,
+            "ano": 1998
+        },
+        {
+            "id": 12,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 13,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 14,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 15,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 16,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 17,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 18,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 19,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 20,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 21,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 22,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 23,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 24,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 25,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 26,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 27,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 28,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 29,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        },
+        {
+            "id": 30,
+            "imagem": "",
+            "marca": "",
+            "modelo": "",
+            "preco": 0,
+            "ano": 0
+        }
+    ]
+}
