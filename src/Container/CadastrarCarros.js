@@ -24,6 +24,14 @@ class CadastrarCarros extends React.Component{
         })
     }
 
+    removerCarro = (id) => {
+        fetch("http://localhost:3000/carro/"+id, {method: 'DELETE'})
+        .then(response => {
+            if (response.ok) {
+                this.apiCarro();
+            }
+        })
+    }
 
     render(){
         return (
