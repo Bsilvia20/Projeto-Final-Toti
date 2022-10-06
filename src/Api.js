@@ -12,8 +12,7 @@ function Api() {
     const peticionGet = async() => {
         const data = await fetch (url)
             .then(response => response.json());
-            obtenerDatos(data);
-            
+            obtenerDatos(data);  
     }
 
     useEffect(() => {

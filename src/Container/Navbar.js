@@ -1,8 +1,11 @@
 import React from "react";
-import { BrowserRouter as Link, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import '../CSS/Navbar.css';
 import logo from'../Imgs/logo.png';
 import Header from'../Imgs/Header-img.jpg';
+import Home from "../Home";
+import CadastrarCarros from "./CadastrarCarros";
+import Carrinho from "./Carrinho";
 
 const Navbar = () => {
  return (
@@ -10,11 +13,18 @@ const Navbar = () => {
       <div className="Navbar">
         <div><img id="logo" src={logo}/></div>
         <div>
+        <BrowserRouter>
           <ul>
-            <li>Home</li>
-            <li>Cadastrar Carros</li>
-            <li>Carrinho</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">Cadastrar Carros</Link></li>
+            <li><Link to="/">Carrinho</Link></li>
           </ul>
+          <Routes>
+            <Route path="/" element={<Home />} ></Route>
+            <Route path="/CadastrarCarros" element={<CadastrarCarros />} ></Route>
+            <Route path="/src/Container/Carrinho.js" element={<Carrinho />} ></Route>
+          </Routes>
+          </BrowserRouter>
         </div>
       </div>
         <div id="header-content">
