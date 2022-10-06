@@ -1,9 +1,9 @@
 import React from "react";
-import "../CSS/Cards.css";
+//import "../CSS/Cards.css";
 import CadastrarCarros from "./CadastrarCarros";
 
 
-const handeDelete=(id) => {
+/*const handeDelete=(id) => {
 var Cards = Cards.map(function(e){
   return e.id
 }).index(id)
@@ -30,7 +30,7 @@ const Cards = ({ datos = [] }) => {
         </div>
       ))}
     </div>
-  );
+  );}
 };
 
-export default Cards;
+export default Cards;*/

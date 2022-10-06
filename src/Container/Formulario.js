@@ -1,12 +1,12 @@
 import React from 'react';
-import '../CSS/Formulario.css';
+//import '../CSS/Formulario.css';
 import whatsapp from '../Imgs/whatsapp.jpg';
 
 
 function Formulario() {
     return (
         <div id='footer'>
-            <div id='contatos'>
+            {/*<div id='contatos'>
                 <h2>Alguma duvida?</h2>
                 <h3 className='contato'>Quer entrar em contato conosco?</h3>
                 <p className='parrafo'>Pode entrar em contato conosco atraves do numero abaixo <br />
@@ -41,7 +41,7 @@ function Formulario() {
                         <button className='button'>Enviar</button>
                     </div>
                 </form>
-            </div>
+    </div>*/}
         </div>
     )
 }

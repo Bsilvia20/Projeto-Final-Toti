@@ -1,29 +1,25 @@
 import React from 'react';
+//import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import Navbar from './Container/Navbar';
-import Filtro from './Container/Filtro';
-import Cards from './Container/Cards';
-import Api from "./Api";
-import Buttons from './Container/Buttons';
 import CadastrarCarros from './Container/CadastrarCarros';
-import Formulario from './Container/Formulario';
-import "./App.css";
 
-function App(){
-
+function App() {
   return (
     <div>
-      <Home />
-      <Navbar />
-      <Filtro />
-      <Cards />
-      <Api />
-      <Formulario />
+      <h1>Concesionario</h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/CadastrarCarros" element={<CadastrarCarros/>} />
+      </Routes>
+    </Router>
     </div>
   );
 }
 
 export default App;
+
 
 //url Api https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos   
 //http://localhost:3000/carro
