@@ -10,8 +10,8 @@ function App() {
       <h1>Concesionario</h1>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/CadastrarCarros" element={<CadastrarCarros/>} />
+        <Route path="/" element={<Home />}>Home</Route>
+        <Route path="/CadastrarCarros" element={<CadastrarCarros/>}>Cadastrar Carros</Route>
       </Routes>
     </Router>
     </div>
