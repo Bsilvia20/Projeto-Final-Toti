@@ -5,7 +5,6 @@ function Api() {
 
     const [datos, obtenerDatos] = useState([]);
     
-    console.log(datos);
     const url = 'http://localhost:3000/carro';
 
     const cardApi = async() => {
