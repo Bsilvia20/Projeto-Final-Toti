@@ -38,7 +38,7 @@ function Formulario() {
                         <textarea cols='30' required />
                     </div>
                     <div>
-                        <button className='button'>Enviar Mensagem</button>
+                        <button className='button'>Enviar</button>
                     </div>
                 </form>
             </div>

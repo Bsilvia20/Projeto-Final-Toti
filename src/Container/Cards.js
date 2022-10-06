@@ -2,6 +2,14 @@ import React from "react";
 import "../CSS/Cards.css";
 import CadastrarCarros from "./CadastrarCarros";
 
+
+const handeDelete=(id) => {
+var Cards = Cards.map(function(e){
+  return e.id
+}).index(id)
+}
+
+
 const Cards = ({ datos = [] }) => {
   return(
     <div className="row">
@@ -15,11 +23,10 @@ const Cards = ({ datos = [] }) => {
               <p className="text">Ano: {datos.ano}</p>
              <p className="text-preco">Preço:R${datos.preco}</p>
               <div className="btn">
-                <button onClick={()=>this.Atualizar(id)} className="btn-uptade">Atualizar</button>
-                <button onClick={()=>this.Delete(id)} className="btn-delete" >Remover</button>
+                <button onClick={() => this.Atualizar(id)} className="btn-uptade">Atualizar</button>
+                <button onClick={()=>handeDelete(id)} className="btn-delete" >Remover</button>
               </div>
-            </div>
-          </div>
+            </div>          </div>
         </div>
       ))}
     </div>
