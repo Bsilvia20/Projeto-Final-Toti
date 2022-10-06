@@ -3,6 +3,7 @@ import Api from "../Api"
 import React from "react";
 import datos from "../Api";
 import Atualizar from "./Atualizar";
+import Navbar from "./Navbar";
 
 class CadastrarCarros extends React.Component{
     constructor(props){
@@ -38,13 +39,14 @@ class CadastrarCarros extends React.Component{
     render(){
         return (
             <div>
+                <Navbar />
                 <Atualizar />
             <table className="table">
                 <thead>
                     <tr>
-                        <th>Ano</th>
                         <th>Marca</th>
                         <th>Modelo</th>
+                        <th>Ano</th>
                         <th>Preço</th>
                         <th>Ações</th>
                     </tr>
@@ -52,9 +54,9 @@ class CadastrarCarros extends React.Component{
                 <tbody>
                     {this.state.carros.map((carro) =>
                     <tr key={carro.id}>
-                        <td>{carro.ano}</td>
                         <td>{carro.marca}</td>
                         <td>{carro.modelo}</td>
+                        <td>{carro.ano}</td>
                         <td>{carro.preco}</td>
                         <td>
                         <button /*onClick={() => this.Atualizar(id)}*/ className="btn-uptade">Atualizar</button>

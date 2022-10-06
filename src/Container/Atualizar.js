@@ -23,21 +23,26 @@ function Atualizar() {
           </Modal.Header>
           <Modal.Body>
             <Form>
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>Id</Form.Label>
-                <Form.Control
-                  type="email"
-                  placeholder="id"
-                  autoFocus
-                />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Id</Form.Label>
+                    <Form.Control type="text" placeholder="Id" />
+                </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Marca</Form.Label>
+                    <Form.Control type="text" placeholder="Marca" />
+                </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Modelo</Form.Label>
+                    <Form.Control type="text" placeholder="Modelo" />
+                </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Ano</Form.Label>
+                    <Form.Control type="number" placeholder="Ano" />
+                </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Preço</Form.Label>
+                    <Form.Control type="text" placeholder="Preço" />
+                </Form.Group>
             </Form>
           </Modal.Body>
           <Modal.Footer>
