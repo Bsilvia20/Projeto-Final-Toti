@@ -4,7 +4,8 @@ import '../CSS/Navbar.css';
 import logo from'../Imgs/logo.png';
 import Home from "../Home";
 import CadastrarCarros from "./CadastrarCarros";
-
+import home from '../Imgs/Home.jpg'
+import add from '../Imgs/Add.jpg'
 
 const Navbar = () => {
  return (
@@ -13,8 +14,8 @@ const Navbar = () => {
         <div><img id="logo" src={logo}/></div>
         <div>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/CadastrarCarros">Cadastrar Carros</Link></li>
+            <li><Link to="/"><img className="Home" src={home}></img></Link></li>
+            <li><Link to="/CadastrarCarros"><img className="car" src={add}></img></Link></li>
           </ul>
         </div>
       </div> 

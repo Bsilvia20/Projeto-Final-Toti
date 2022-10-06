@@ -23,7 +23,7 @@ function Home() {
                 <img width="100%" src="https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_1280.jpg " />
             </Carousel.Item>
             <Carousel.Item>
-                <img width="100%" src="https://svg-image.s3.amazonaws.com/south-honda/061-0221-SHO873/slider1.jpg" />
+                <img width="100%" src="https://images.pexels.com/photos/7942893/pexels-photo-7942893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
             </Carousel.Item>
             <Carousel.Item>
                 <img width="100%" src="https://cdn.pixabay.com/photo/2016/12/03/18/57/car-1880381_1280.jpg" />

@@ -35,6 +35,23 @@ class CadastrarCarros extends React.Component{
         })
     }
 
+    Atualizar = (id) => {
+        fetch("http://localhost:3000/carro/" + id, {method: 'GET'})
+       .then(response => response.json())
+       .then(carro => {
+        this.setState({
+            id: carro.id,
+            imagem: carro.imagem,
+            marca: carro.marca,
+            modelo: carro.modelo,
+            preço: carro.preço,
+            Ano: carro.Ano,
+        
+       })
+     })
+
+    }
+
     render(){
         return (
             <div>
@@ -58,7 +75,7 @@ class CadastrarCarros extends React.Component{
                         <td>{carro.ano}</td>
                         <td>{carro.preco}</td>
                         <td>
-                        <button /*onClick={() => this.Atualizar(id)}*/ className="btn-uptade">Atualizar</button>
+                        <button onClick={() => this.Atualizar(carro.id)} className="btn-uptade">Atualizar</button>
                         <button onClick={() => this.removerCarro(carro.id)} className="btn-delete" >Remover</button>
                         </td>
                     </tr>)}
