@@ -7,6 +7,8 @@ const handeDelete=(id) => {
 var Cards = Cards.map(function(e){
   return e.id
 }).index(id)
+
+
 }
 
 
