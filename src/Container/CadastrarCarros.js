@@ -1,7 +1,8 @@
 import Api from "../Api"
-//import "../CSS/CadastrarCarros.css";
-import React from "react";
 import "../CSS/CadastrarCarros.css";
+import React from "react";
+import Atualizar from "./Atualizar";
+import Navbar from "./Navbar";
 
 class CadastrarCarros extends React.Component{
     constructor(props){

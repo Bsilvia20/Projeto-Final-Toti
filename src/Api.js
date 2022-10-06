@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import CadastrarCarros from "./Container/CadastrarCarros";
 import Cards from "./Container/Cards";
 
 function Api() {

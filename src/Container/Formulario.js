@@ -1,25 +1,20 @@
 import React from 'react';
-//import '../CSS/Formulario.css';
+import '../CSS/Formulario.css';
 import whatsapp from '../Imgs/whatsapp.jpg';
 
 
 function Formulario() {
     return (
         <div id='footer'>
-            {/*<div id='contatos'>
-                <h2>Alguma duvida?</h2>
-                <h3 className='contato'>Quer entrar em contato conosco?</h3>
+            <div id='contatos'>
+                <h2 className='titulo'>Quer entrar em contato conosco?</h2>
                 <p className='parrafo'>Pode entrar em contato conosco atraves do numero abaixo <br />
                     ou precha o formulário ao lado e entrarei em contato o <br />
-                    mais rápido possível. Você também pode nos encontrar nas <br />
-                    seguintes redes sociais:</p>
+                    mais rápido possível.</p>
                 <div id='number'>
                     <img id='whatsapp' src={whatsapp} />
-                    <h4>(21)00000000000</h4>
+                    <h4>(21) 0 000000-0000</h4>
                 </div><br />
-                <div>
-                    <h5>Segue a gente</h5>
-                </div>
             </div>
             <div id='contatos-form'>
                 <form>
@@ -41,7 +36,7 @@ function Formulario() {
                         <button className='button'>Enviar</button>
                     </div>
                 </form>
-    </div>*/}
+    </div>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
+import "../CSS/Atualizar.css";
 
 function Atualizar() {
     const [show, setShow] = useState(false);
@@ -13,7 +14,7 @@ function Atualizar() {
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
+        <Button className="btn-cadastro" onClick={handleShow}>
           Cadastrar Carro
         </Button>
   

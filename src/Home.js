@@ -2,13 +2,15 @@ import React from "react";
 import Navbar from "./Container/Navbar";
 import Api from "./Api";
 import Carousel from 'better-react-carousel';
+import "./CSS/Home.css";
+import Formulario from "./Container/Formulario";
 
 function Home() {
     return(
         <div>
             <Navbar />
-            <div>
-            <Carousel
+            <div className="carousel">
+            <Carousel 
                  autoPlay={true}
                 infiniteLoop={true}
                 showThumbs={false}
@@ -32,6 +34,7 @@ function Home() {
             </Carousel>
         </div>
             <Api />
+            <Formulario />
         </div>
     )
 }
