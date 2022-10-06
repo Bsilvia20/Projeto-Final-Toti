@@ -1,9 +1,10 @@
 import React from "react";
+import Api from "./Api";
 
 function Home() {
     return(
         <div>
-            Home hola
+            <Api />
         </div>
     )
 }

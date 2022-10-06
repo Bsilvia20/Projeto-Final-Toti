@@ -1,6 +1,8 @@
 import Api from "../Api"
 //import "../CSS/CadastrarCarros.css";
 import React from "react";
+import datos from "../Api";
+import Atualizar from "./Atualizar";
 
 class CadastrarCarros extends React.Component{
     constructor(props){
@@ -35,6 +37,8 @@ class CadastrarCarros extends React.Component{
 
     render(){
         return (
+            <div>
+                <Atualizar />
             <table className="table">
                 <thead>
                     <tr>
@@ -60,29 +64,9 @@ class CadastrarCarros extends React.Component{
                     
                 </tbody>
             </table>
+            </div>
         );
     }
 }
 
 export default CadastrarCarros;
-
-/*const CadastrarCarros = () => {
-    const [carros, setCarros] = useState();
-
-    const cadastro =() => {
-        fetch('http://localhost:3000/carro')
-        .then(response => response.json())
-        .then(dados => {
-            this.setCarros({dados})
-        })
-    }
-
-
-    return(
-        <div>
-            cadastrofff
-        </div>
-    )
-}
-
-export default CadastrarCarros;*/

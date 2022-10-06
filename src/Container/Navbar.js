@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
-import '../CSS/Navbar.css';
+//import '../CSS/Navbar.css';
 import logo from'../Imgs/logo.png';
 import Header from'../Imgs/Header-img.jpg';
 import Home from "../Home";
@@ -36,7 +36,15 @@ const Navbar = () => {
       
         </div> 
         <div>
-        <Carousel>
+        <Carousel
+        autoPlay={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showIndicators={false}
+        showStatus={false}
+        showArrows={false}
+        className="carousel"
+        >
       <Carousel.Item>
         <img width="100%" src="https://mundoconectado.com.br/uploads/chamadas/hondaparceriagoogleandroidautomotive2022.jpg" />
       </Carousel.Item>
