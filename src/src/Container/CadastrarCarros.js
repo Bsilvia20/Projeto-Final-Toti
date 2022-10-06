@@ -1,9 +1,11 @@
 import Api from "../Api"
-import "../CSS/CadastrarCarros.css";
+//import "../CSS/CadastrarCarros.css";
 import React from "react";
-import Atualizar from "./Atualizar";
-import Navbar from "./Navbar";
+import datos from "../Api";
 
+const carro = ({ datos = [] }) => {
+
+}
 class CadastrarCarros extends React.Component{
     constructor(props){
         super(props);
@@ -35,34 +37,14 @@ class CadastrarCarros extends React.Component{
         })
     }
 
-    Atualizar = (id) => {
-        fetch("http://localhost:3000/carro/" + id, {method: 'GET'})
-       .then(response => response.json())
-       .then(carro => {
-        this.setState({
-            id: carro.id,
-            imagem: carro.imagem,
-            marca: carro.marca,
-            modelo: carro.modelo,
-            preço: carro.preço,
-            Ano: carro.Ano,
-        
-       })
-     })
-
-    }
-
     render(){
         return (
-            <div>
-                <Navbar />
-                <Atualizar />
             <table className="table">
                 <thead>
                     <tr>
+                        <th>Ano</th>
                         <th>Marca</th>
                         <th>Modelo</th>
-                        <th>Ano</th>
                         <th>Preço</th>
                         <th>Ações</th>
                     </tr>
@@ -70,21 +52,41 @@ class CadastrarCarros extends React.Component{
                 <tbody>
                     {this.state.carros.map((carro) =>
                     <tr key={carro.id}>
+                        <td>{carro.ano}</td>
                         <td>{carro.marca}</td>
                         <td>{carro.modelo}</td>
-                        <td>{carro.ano}</td>
                         <td>{carro.preco}</td>
                         <td>
-                        <button onClick={() => this.Atualizar(carro.id)} className="btn-uptade">Atualizar</button>
+                        <button /*onClick={() => this.Atualizar(id)}*/ className="btn-uptade">Atualizar</button>
                         <button onClick={() => this.removerCarro(carro.id)} className="btn-delete" >Remover</button>
                         </td>
                     </tr>)}
                     
                 </tbody>
             </table>
-            </div>
         );
     }
 }
 
 export default CadastrarCarros;
+
+/*const CadastrarCarros = () => {
+    const [carros, setCarros] = useState();
+
+    const cadastro =() => {
+        fetch('http://localhost:3000/carro')
+        .then(response => response.json())
+        .then(dados => {
+            this.setCarros({dados})
+        })
+    }
+
+
+    return(
+        <div>
+            cadastrofff
+        </div>
+    )
+}
+
+export default CadastrarCarros;*/

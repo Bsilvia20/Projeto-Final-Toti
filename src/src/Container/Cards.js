@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Cards.css";
+//import "../CSS/Cards.css";
 
 const Cards = ({ datos = [] }) => {
   return(
@@ -12,9 +12,8 @@ const Cards = ({ datos = [] }) => {
               <h3 className="titulo"> {datos.marca}</h3>
               <h4 className="subtitulo">Modelo: {datos.modelo}</h4>
               <p className="text">Ano: {datos.ano}</p>
-             <p className="text-preco">Preço: R$ {datos.preco}</p>
-            </div>          
-          </div>
+             <p className="text-preco">Preço:R${datos.preco}</p>
+            </div>          </div>
         </div>
       ))}
     </div>

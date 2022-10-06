@@ -7,36 +7,29 @@
     height: 500px;
 }
 
-#footer h2{
+#footer h5,h2{
     color:  #0BB5FF;
     font-size: 30px;
-}
-
-.titulo {
-    font-size: 25px;
-    align-items: center;
-    margin-bottom: 5px;
 }
 
 #number{
     display: flex;
     align-items: center;
-    color: #fff;
 }
 
 #contatos-form{
     padding: 5px;
 }
 
-.contatos {
+.contato {
     padding-top: 5px;
+    font-size: 18px;
     text-align: center;
 }
 
 .parrafo {
     font-size: 18px;
     text-align: center;
-    color: #fff;
 }
 
 #contatos-form input{
@@ -58,7 +51,6 @@
 
 #contatos-form label {
     font-size: 18px;
-    color: #fff;
 }
 
 #whatsapp{
