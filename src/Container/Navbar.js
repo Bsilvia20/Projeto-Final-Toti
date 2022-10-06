@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
-//import '../CSS/Navbar.css';
+import '../CSS/Navbar.css';
 import logo from'../Imgs/logo.png';
 import Home from "../Home";
 import CadastrarCarros from "./CadastrarCarros";

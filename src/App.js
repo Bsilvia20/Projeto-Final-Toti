@@ -7,7 +7,6 @@ import CadastrarCarros from './Container/CadastrarCarros';
 function App() {
   return (
     <div>
-      <h1>Concesionario</h1>
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
