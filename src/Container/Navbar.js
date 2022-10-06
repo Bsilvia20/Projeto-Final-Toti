@@ -6,6 +6,7 @@ import Header from'../Imgs/Header-img.jpg';
 import Home from "../Home";
 import CadastrarCarros from "./CadastrarCarros";
 import Carrinho from "./Carrinho";
+import Carousel from 'better-react-carousel';
 
 const Navbar = () => {
  return (
@@ -32,8 +33,25 @@ const Navbar = () => {
           <h1>Encontre aqui<br/>seu próximo carro</h1>
           <p>Escolhe seu carro aqui e a gente leva até você.<br/>E se pensar em financiamento,<br/>faça tudo online simples e rápido.</p>
           </span>
-          <img id="header-img" src={Header}/>
+      
         </div> 
+        <div>
+        <Carousel>
+      <Carousel.Item>
+        <img width="100%" src="https://mundoconectado.com.br/uploads/chamadas/hondaparceriagoogleandroidautomotive2022.jpg" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img width="100%" src="https://img.olhardigital.com.br/wp-content/uploads/2022/04/tesla-roadster-1280x450.webp" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img width="100%" src="https://www.pivaautomoveis.com.br/images/banner1.jpg" />
+      </Carousel.Item>
+      <Carousel.Item>
+        {/* anything you want to show in the grid */}
+      </Carousel.Item>
+      {/* ... */}
+    </Carousel>
+        </div>
     </div>
  )
 }
