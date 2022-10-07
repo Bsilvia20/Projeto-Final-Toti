@@ -20,5 +20,4 @@ const Cards = ({ datos = [] }) => {
     </div>
   );
 };
-
 export default Cards;

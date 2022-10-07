@@ -79,3 +79,23 @@
     .btn{
         display: flex;
     }
+
+    @media screen and (max-width:770px) {
+        .row {
+            display: inline-block;
+            align-items: center;
+        }
+      
+        .columnas {
+            line-height: 30px;
+            margin-left: 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            grid-template-columns: 1fr 1fr;
+            margin: 20px;
+        }
+      
+      }
